@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @media screen and (min-width:1200px) {
+            .box{
+                display: flex;
+                height: 600px;
+                width: 1000px;
+            }
+            div{
+                height: 60px;
+                width: 250px;
+                text-align: center;
+                line-height: 60px;
+                color: white;
+            }
+            .one{
+                background: red;
+            }
+            .two{
+                background: blue;
+            }
+            .three{
+                background: black;
+            }
+            .four{
+                background: orange;
+            }
+        }
+        @media screen and (min-width:992px) and (max-width:1200px){
+            .box{
+                display: flex;
+                height: 120px;
+                width: 750px;
+                flex-wrap: wrap;
+            }
+            div{
+                height: 60px;
+                width: 250px;
+                text-align: center;
+                line-height: 60px;
+                color: white;
+            }
+            .one{
+                width: 750px;
+                background: red;
+            }
+            .two{
+                background: blue;
+            }
+            .three{
+                background: black;
+            }
+            .four{
+                background: orange;
+            }
+        }
+        @media screen and (min-width:768px) and (max-width:992px){
+            .box{
+                height: 120px;
+                width: 500px;
+                display: flex;
+                flex-wrap: wrap;
+            }
+            div{
+                height: 60px;
+                width: 250px;
+                text-align: center;
+                line-height: 60px;
+                color: white;
+            }
+            .one{
+                
+                background: red;
+            }
+            .two{
+                background: blue;
+            }
+            .three{
+                background: black;
+            }
+            .four{
+                background: orange;
+            }
+        }
+        @media screen  and (max-width:768px){
+            div{
+                height: 60px;
+                width: 750px;
+                text-align: center;
+                line-height: 60px;
+                color: white;
+            }
+            .one{
+                
+                background: red;
+            }
+            .two{
+                background: blue;
+            }
+            .three{
+                background: black;
+            }
+            .four{
+                background: orange;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="one">1</div>
+        <div class="two">2</div>
+        <div class="three">3</div>
+        <div class="four">4</div>
+    </div>
+        
+    
+    
+
+</body>
+</html>
